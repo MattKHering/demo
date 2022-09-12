@@ -34,14 +34,6 @@
 	    padding-left: 40px;
 	}
 
-	nav {
-	    font-weight: bold;
-	    text-decoration: none;
-	    text-align: center;
-	    padding: 10px;
-	    float: left;
-	    width: 160px;
-	}
 
 	h1 {
 	    height: 100px;
@@ -102,7 +94,6 @@
 
 	Header,
 	main,
-	nav,
 	footer,
 	figure,
 	figcaption,
@@ -110,10 +101,6 @@
 	section,
 	article {
 	    display: block;
-	}
-
-	tr:nth-child(odd) {
-	    background-color: #a90101;
 	}
 
 	.mobile {
@@ -160,16 +147,6 @@
 
 	@media only screen and (max-width: 37.5em) {
 
-	    nav li {
-	        display: inline-block;
-	        width: 5em;
-	        font-size: 120%;
-	        text-align: center;
-	        box-shadow: 2px 2px 2px #330000;
-	        background-color: #a90101;
-	        margin: 1%;
-	        padding: 2.5%;
-	    }
 
 	    main article {
 	        margin: 0;
