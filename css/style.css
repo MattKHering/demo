@@ -38,6 +38,12 @@
 		padding-left: 40px;
 	}
 
+	main ol {
+		list-style-position: inside;
+		font-size: 1.2em;
+		padding-left: 40px;
+	}
+
 	nav ul {
 		font-size: 1.2em;
 		list-style: none;
