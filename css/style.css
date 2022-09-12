@@ -16,7 +16,24 @@
 	    background-color: #a90101;
 	    margin-left: 175px;
 	    margin-right: 175px;
+	    position: relative;
+
 	}
+
+	main img {
+	    max-height: 30%;
+	    max-width: 30%;
+	    margin-top: 18px;
+	}
+
+	img#photo {
+	    position: absolute;
+	    top: -18px;
+	    right: 0px;
+	    z-index: 1;
+	}
+
+
 
 	main article {
 	    margin-left: 20%;
@@ -146,6 +163,10 @@
 	        box-shadow: none;
 	    }
 
+	    img#photo {
+	        z-index: -1;
+	    }
+
 	}
 
 	@media only screen and (max-width: 37.5em) {
@@ -170,5 +191,9 @@
 
 	    .desktop {
 	        display: none;
+	    }
+
+	    img#photo {
+	        z-index: -1;
 	    }
 	}
