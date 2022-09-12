@@ -30,8 +30,11 @@
 
 	main ol {
 	    list-style-position: inside;
-	    font-size: 1.2em;
 	    padding-left: 40px;
+	}
+
+	main li {
+	    font-size: 1.2em;
 	}
 
 
