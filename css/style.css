@@ -21,8 +21,8 @@
 	}
 
 	main img {
-	    max-height: 30%;
-	    max-width: 30%;
+	    max-height: 35%;
+	    max-width: 35%;
 	    margin-top: 18px;
 	}
 
@@ -195,6 +195,5 @@
 
 	    img#photo {
 	        z-index: -1;
-		    
 	    }
 	}
