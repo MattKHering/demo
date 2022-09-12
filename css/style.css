@@ -1,149 +1,103 @@
 	header {
-		background-color: black;
+	    text-align: center;
+	    background-color: gray;
 	}
 
 	body {
-		color: white;
-		background-color: gray;
-		font-family: "verdana", "arial", sans-serif;
-		background-image: url("../images/javabackground.gif");
+	    color: white;
+	    background-color: gray;
+	    font-family: "verdana", "arial", sans-serif;
+
 	}
 
 	main {
-		padding: 20px;
-		display: block;
-		background-color: #a90101;
-		margin-left: 175px;
+	    padding: 20px;
+	    display: block;
+	    background-color: #a90101;
+	    margin-left: 175px;
+	    margin-right: 175px;
 	}
 
 	main article {
-		margin-left: 20%;
-		margin-right: 20%;
-		overflow: auto;
-		font-size: 90%;
-		padding-left: 5%;
-		padding-right: 5%;
-		margin-bottom: 0;
-	}
-
-	main img a {
-		float: left;
-		padding-right: 2em;
-	}
-
-	main ul {
-		list-style-image: url(../images/marker.gif);
-		list-style-position: inside;
-		font-size: 1.2em;
-		padding-left: 40px;
+	    margin-left: 20%;
+	    margin-right: 20%;
+	    overflow: auto;
+	    font-size: 90%;
+	    padding-left: 5%;
+	    padding-right: 5%;
+	    margin-bottom: 0;
 	}
 
 	main ol {
-		list-style-position: inside;
-		font-size: 1.2em;
-		padding-left: 40px;
-	}
-
-	nav ul {
-		font-size: 1.2em;
-		list-style: none;
-		padding-left: 0px;
-		align-content: center
+	    list-style-position: inside;
+	    font-size: 1.2em;
+	    padding-left: 40px;
 	}
 
 	nav {
-		font-weight: bold;
-		text-decoration: none;
-		text-align: center;
-		padding: 10px;
-		float: left;
-		width: 160px;
-	}
-
-	nav a {
-		font-weight: bold;
-		text-decoration: none;
-	}
-
-	nav a:link {
-		color: #a90101;
-	}
-
-	nav a:visited {
-		color: #ed1e24;
-	}
-
-	nav a:hover,
-	nav a:focus {
-		color: black;
+	    font-weight: bold;
+	    text-decoration: none;
+	    text-align: center;
+	    padding: 10px;
+	    float: left;
+	    width: 160px;
 	}
 
 	h1 {
-		height: 100px;
-		margin: 0;
-		background-image: url(../images/HeaderLogo.png);
-		background-size: auto;
-		background-position: center;
-		background-repeat: no-repeat;
-		font-family: "georgia", "times new roman", serif;
-		text-indent: -9999px;
+	    height: 100px;
+	    margin: 0;
+	    font-family: "georgia", "times new roman", serif;
+	    text-indent: -9999px;
 	}
 
 	h2 {
-		font-family: "georgia", "times new roman", serif;
+	    font-family: "georgia", "times new roman", serif;
 	}
 
 	h3 {
-		background-color: #a90101;
-		text-transform: uppercase;
-	}
-
-	dt {
-		font-weight: bold;
+	    background-color: #a90101;
+	    text-transform: uppercase;
 	}
 
 	footer {
-		color: white;
-		background-color: black;
-		text-align: center;
-		font-size: .60em;
-		padding: 10px;
+	    color: white;
+	    background-color: black;
+	    text-align: center;
+	    font-size: .60em;
+	    padding: 10px;
+	    padding-left: 50px;
+	    padding-right: 50px;
+	    bottom: 0;
+	    position: fixed;
+	    align-content:
+	        width: 100%;
 	}
 
-	footer a {
-		color: white;
+	a {
+	    color: aqua
 	}
 
-	footer a:visited {
-		color: #000000;
-	}
-
-	footer a:hover {
-		color: #ed1e24;
-	}
-
-	main article > p {
-		margin-bottom: 0;
+	a:hover {
+	    color: #ed1e24;
 	}
 
 	#wrapper {
-		width: 80%;
-		background-color: white;
-		min-width: 960px;
-		max-width: 2048px;
-		box-shadow: 3px 3px 3px #2E0000;
-		margin: auto;
-		margin-left: auto;
-		margin-right: auto;
+	    width: 80%;
+	    background-color: white;
+	    min-width: 960px;
+	    max-width: 2048px;
+	    box-shadow: 3px 3px 3px #2E0000;
+	    margin: auto;
+	    margin-left: auto;
+	    margin-right: auto;
 	}
 
 	#hero {
-		height: 300px;
-		color: #F5F5DC;
-		background-image: url(../images/heroroad.jpg);
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		background-position: center;
+	    height: auto;
+	    color: #F5F5DC;
+	    background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	    background-position: center;
 	}
 
 	Header,
@@ -155,148 +109,86 @@
 	aside,
 	section,
 	article {
-		display: block;
-	}
-
-
-
-	table {
-		margin: auto;
-		width: 80%;
-	}
-
-	td,
-	th {
-		padding: 10px;
+	    display: block;
 	}
 
 	tr:nth-child(odd) {
-		background-color: #a90101;
+	    background-color: #a90101;
 	}
 
 	.mobile {
-		display: none;
+	    display: none;
 	}
 
 	.desktop {
-		display: inline;
+	    display: inline;
 	}
 
 
-	label {
-		float: left;
-		display: block;
-		text-align: left;
-		width: 150px;
-	}
-
-	input,
-	textarea {
-		display: block;
-		margin-bottom: 20px;
-	}
-
-	#submit {
-		margin-left: 130px;
-	}
 
 	@media only screen and (max-width: 64em) {
 
-		body {
-			margin: 0;
-			background-color: #a90101;
-			background-image: none;
-		}
+	    body {
+	        margin: 0;
+	        background-color: #a90101;
+	        background-image: none;
+	    }
 
-		#wrapper {
-			min-width: 0;
-			width: auto;
-			box-shadow: none;
-		}
+	    footer {
+	        position: relative;
+	    }
 
-		h1 {
-			margin: 0;
-			background-image: url(../images/HeaderLogo.png)
-		}
+	    h1 {
+	        margin: 0;
+	    }
 
-		main {
-			margin-left: 0;
-		}
+	    h2 {
+	        background-color: #a90101;
+	    }
 
-		nav {
-			float: none;
-			width: auto;
-			padding: 0;
-		}
+	    main {
+	        margin-left: 0;
+	    }
 
-		nav ul {
-			align-content: center;
-		}
+	    #wrapper {
+	        min-width: 0;
+	        width: auto;
+	        box-shadow: none;
+	    }
 
-		nav li {
-			display: inline;
-			padding-top: 0;
-			padding-bottom: 0;
-			padding-left: .75em;
-			padding-right: .75em;
-		}
 	}
 
 	@media only screen and (max-width: 37.5em) {
 
-		nav li {
-			display: inline-block;
-			width: 5em;
-			font-size: 120%;
-			text-align: center;
-			box-shadow: 2px 2px 2px #330000;
-			background-color: #a90101;
-			margin: 1%;
-			padding: 2.5%;
-		}
+	    nav li {
+	        display: inline-block;
+	        width: 5em;
+	        font-size: 120%;
+	        text-align: center;
+	        box-shadow: 2px 2px 2px #330000;
+	        background-color: #a90101;
+	        margin: 1%;
+	        padding: 2.5%;
+	    }
 
-		nav a {
-			display: block;
-		}
+	    main article {
+	        margin: 0;
+	    }
 
-		nav a:hover {
-			color: #ed1e24;
-		}
+	    footer {
+	        position: relative;
+	    }
 
-		main a:link {
-			color: #FFFFFF;
-		}
 
-		main a:visited {
-			color: #EAEAEA;
-		}
+	    #hero {
+	        height: auto;
+	    }
 
-		main a:hover {
-			color: black;
-		}
+	    .mobile {
+	        display: inline;
+	    }
 
-		main article {
-			margin: 0;
-		}
-
-		#hero {
-			height: auto;
-		}
-
-		.mobile {
-			display: inline;
-		}
-
-		.desktop {
-			display: none;
-		}
-
-		label {
-			float: none;
-			text-align: left;
-		}
-
-		input [type=submit] {
-			margin-left: 0;
-		}
+	    .desktop {
+	        display: none;
+	    }
 	}
