@@ -3,7 +3,6 @@
     <style>
       .carousel {
         position: relative;
-        display: flex;
         width: 100%;
         height: 500px;
         overflow: hidden;
@@ -15,6 +14,7 @@
         left: 0;
         width: 100%;
         height: 100%;
+        object-fit: contain;
         opacity: 0;
         transition: opacity 1s;
       }
@@ -34,20 +34,20 @@
     </div>
     
     <script>
-      const slides = document.querySelectorAll(".slide");
-      let index = 0;
-      
-      function cycleSlides() {
-        slides.forEach(slide => {
-          slide.classList.remove("active");
-        });
+        const slides = document.querySelectorAll(".slide");
+        let index = 0;
         
-        index = (index + 1) % slides.length;
+        function cycleSlides() {
+          slides.forEach(slide => {
+            slide.classList.remove("active");
+          });
+          
+          index = (index + 1) % slides.length;
+          
+          slides[index].classList.add("active");
+        }
         
-        slides[index].classList.add("active");
-      }
-      
-      setInterval(cycleSlides, 3000);
-    </script>
-  </body>
-</html>
+        setInterval(cycleSlides, 3000);
+      </script>
+    </body>
+  </html>
